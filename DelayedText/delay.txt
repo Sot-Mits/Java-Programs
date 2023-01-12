@@ -1,0 +1,17 @@
+Replace the delays to use the standard values.
+This file isn't necessary so you don't have to use it but if you do, have at 6 numbers.
+Times are in milliseconds.
+If you mess up something, ctrl+c.
+Save and re-run the program.
+Start (Default 2000)
+2000
+Fullstop (Default 225)
+225
+Comma (Default 175)
+175
+General Speed (Default 125)
+125
+Line Pause (Default 325)
+325
+End (10000)
+10000

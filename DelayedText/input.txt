@@ -1,0 +1,5 @@
+Hello Mr. Oektem!
+This is the project I worked on during the winter break for Daniel.
+As you can see it outputs text in a delayed manner than I think looks cool.
+
+Tell me if you have any questions!
