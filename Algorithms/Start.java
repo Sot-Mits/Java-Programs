@@ -104,7 +104,7 @@ public class Start {
 			}
 			catch (Exception exception) {
 				System.out.println("Please enter a valid integer.");
-				IntHandler();
+				return IntHandler();
 			}
 		}
 	}
@@ -116,7 +116,7 @@ public class Start {
 
 		try {
 			//Checks for file
-			//I'm doing this on Mac so I can't confirm but I think for windows it should be without File.separator
+			//I'm doing this on Mac so I can't confirm but I think for Windows it should be without File.separator
 			Scanner reader = new Scanner(new File(/*System.getProperty("user.dir") + File.separator + */fileName));
 
 			//Checks for empty file
