@@ -68,7 +68,6 @@ public class AntiPrimer {
 
 	static final Scanner keyboardInput = new Scanner(System.in);
 	static String tempStringInput;
-
 	public static int IntHandler() {
 		tempStringInput = keyboardInput.nextLine();
 		while (true) {
@@ -78,7 +77,7 @@ public class AntiPrimer {
 			}
 			catch (Exception exception) {
 				System.out.println("Please enter a valid integer.");
-				IntHandler();
+				return IntHandler();
 			}
 		}
 	}
