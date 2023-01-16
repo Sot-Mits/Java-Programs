@@ -4,10 +4,6 @@
 import java.util.Scanner;
 
 public class RatioSimplifier {
-
-	static final Scanner keyboardInput = new Scanner(System.in);
-	static String tempStringInput;
-
 	public static void main(String[] args) {
 		System.out.println("This program simplifies a ratio into its lowest form.");
 		System.out.println("How many parts in the ratio?");
@@ -95,6 +91,8 @@ public class RatioSimplifier {
 		RatioPrinter("Simplified ratio is ", ratio);
 	}
 
+	static final Scanner keyboardInput = new Scanner(System.in);
+	static String tempStringInput;
 	public static int IntHandler() {
 		tempStringInput = keyboardInput.nextLine();
 		while (true) {
@@ -104,7 +102,7 @@ public class RatioSimplifier {
 			}
 			catch (Exception exception) {
 				System.out.println("Please enter a valid integer.");
-				IntHandler();
+				return IntHandler();
 			}
 		}
 	}
