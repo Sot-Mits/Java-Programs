@@ -70,15 +70,13 @@ public class AntiPrimer {
 	static String tempStringInput;
 	public static int IntHandler() {
 		tempStringInput = keyboardInput.nextLine();
-		while (true) {
-			try {
-				int intInput = Integer.parseInt(tempStringInput);
-				return intInput;
-			}
-			catch (Exception exception) {
-				System.out.println("Please enter a valid integer.");
-				return IntHandler();
-			}
+		try {
+			int intInput = Integer.parseInt(tempStringInput);
+			return intInput;
+		}
+		catch (Exception exception) {
+			System.out.println("Please enter a valid integer.");
+			return IntHandler();
 		}
 	}
 }
