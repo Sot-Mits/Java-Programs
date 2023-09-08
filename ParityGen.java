@@ -51,7 +51,6 @@ public class ParityGen {
 			}
 
 			//checks for 1's and 0's
-			//After a few months, I forgor wtf I did
 			int i = 0;
 			boolean legalInput = true;
 			while (i < userInput.length()) {
